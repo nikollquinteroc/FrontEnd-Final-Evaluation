@@ -2,6 +2,7 @@
 
 body {
     /* Aplica la fuente 'Be Vietnam' como fuente principal */
+    height: 100%;
     font-family: 'Be Vietnam', sans-serif;
 }
 
@@ -62,4 +63,35 @@ button.darkBlueButton {
 
 button.darkBlueButton:hover {
     background-color: #141a31;
+}
+
+p {
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+p.paragraphList {
+    color: #B3B2B7;
+    letter-spacing: -1%;
+    width: 437px;
+    height: 104px;
+}
+
+p#paragraphWhite {
+    color: #FFFFFF;
+    width: 450px;
+    height: 88px;
+}
+
+p.paragraphPersonDescription {
+    text-align: center;
+    color: #B9B9C1;
+    width: 403px;
+    height: 100px;
+}
+
+#personDescriptionSection {
+    display: flex;
 }

@@ -65,6 +65,10 @@ button.darkBlueButton:hover {
     background-color: #141a31;
 }
 
+button#contactButton {
+    float: right;
+}
+
 h1 {
     font-family: 'Be Vietnam', sans-serif;
     font-weight: 700;
@@ -177,5 +181,9 @@ p.paragraphPersonDescription {
 }
 
 #personDescriptionSection {
+    display: flex;
+}
+
+#sectionOne {
     display: flex;
 }

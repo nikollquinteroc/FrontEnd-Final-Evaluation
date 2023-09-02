@@ -63,3 +63,45 @@ button.darkBlueButton {
 button.darkBlueButton:hover {
     background-color: #141a31;
 }
+
+h1{
+    font-family: 'Be Vietnam';
+    font-weight: 700;
+    font-size: 50px;
+    /* Controla la altura de intelineado*/
+    line-height: 57.3px;
+    letter-spacing: -3.5%;
+    /* Controla el espacio horizontal entre los caracteres en un texto */
+    text-align: right;
+    color:#232C50;
+}
+
+h2{
+    font-family: 'Be Vietnam';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41.26px;
+    color: #FFFFFF;    
+}
+h2 #get{
+    font-size: 40px;
+    line-height: 57.3px;
+    letter-spacing: -3.5%;
+}
+/* el h4 que estaba en la sección 1 lo cambié por un h3 porque tenía propiedades diferentes a otros h4 */
+h3{
+    font-family: 'Be Vietnam';
+    font-weight: 500;
+    font-size: 16.56px;
+    line-height: 26.01px;
+    text-align: right;
+    color: #000000;
+}
+h4 {
+    font-family: 'Be Vietnam';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23.38px;
+    letter-spacing: -1.5%;
+    color: #323851;
+}

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
     /* Aplica la fuente 'Be Vietnam' como fuente principal */
     height: 100%;
@@ -186,4 +191,15 @@ p.paragraphPersonDescription {
 
 #sectionOne {
     display: flex;
+    justify-content: center;
+}
+
+#fraseHome {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 30px;
+    padding-right: 0px;
+    padding-left: 90px;
 }

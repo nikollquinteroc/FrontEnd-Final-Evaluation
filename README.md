@@ -6,4 +6,7 @@
 1. Etiqueta button en general
 
 `/ Sofía Miranda Galvis`
-1. Títulos h1,h2.h3 y h4 
+2. Títulos h1,h2.h3 y h4 
+
+`/ Nikoll Daiana Quintero Chavez`
+3. Etiqueta parrafos

@@ -63,3 +63,87 @@ button.darkBlueButton {
 button.darkBlueButton:hover {
     background-color: #141a31;
 }
+
+h1 {
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #232C50;
+}
+
+h1#mainTitle {
+    text-align: right;
+    /* Controla la altura de intelineado*/
+    line-height: 57.3px;
+    /* Controla el espacio horizontal entre los caracteres en un texto */
+    letter-spacing: -3.5%;
+    width: 450px;
+    height: 228px;
+}
+
+h2 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    font-size: 42.5px;
+    color: #FFFFFF;
+}
+
+h2#secondaryTitleWhite {
+    font-size: 40px;
+    line-height: 47.84px;
+    letter-spacing: -0.5%;
+    width: 420px;
+    height: 96px;
+}
+
+h2#secondaryTitleDarkBlue {
+    font-size: 40px;
+    line-height: 61.41px;
+    letter-spacing: -1%;
+    text-align: center;
+    color: #242E53;
+}
+
+h3 {
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+h3#thirdTitle {
+    line-height: 41.26px;
+    width: 450px;
+    height: 88px;
+}
+
+h5 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    color: #323851;
+}
+
+h5#fourthTitle {
+    font-weight: 500;
+    font-size: 16.56px;
+    line-height: 26.01px;
+    text-align: right;
+    color: #000000;
+    width: 450px;
+    height: 71px;
+}
+
+h5.fifthTitle {
+    color: #323851;
+    font-size: 16px;
+    line-height: 23.38px;
+    letter-spacing: -1.5%;
+    height: 23px;
+}
+
+h5.personNameTitle {
+    font-size: 16px;
+    line-height: 25.17px;
+    letter-spacing: -1%;
+    color: #3F4868;
+}

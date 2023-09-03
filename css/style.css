@@ -110,6 +110,7 @@ h2#secondaryTitleWhite {
     letter-spacing: -0.5%;
     width: 420px;
     height: 96px;
+    text-align: left;
 }
 
 h2#secondaryTitleDarkBlue {
@@ -234,10 +235,8 @@ p.paragraphPersonDescription {
 div#firstListItems {
     display: flex;
     justify-content: space-evenly;
-    padding: 20px, 80px, 10px, 80px;
     margin-top: 45px;
-    margin-left: 70px;
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 div#lastListItem {
@@ -268,15 +267,18 @@ div.infoListItem {
 
 div#personDescriptionItems {
     display: flex;
-    margin-bottom: 50px;
     justify-content: center;
+    background-color: #FAFAFA;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
 }
 
 article.personDescription {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FAFAFA;
 }
 
 .personPhoto {
@@ -286,4 +288,12 @@ article.personDescription {
 
  div#lightPurpleButton {
     text-align: center;
+ }
+
+ #sectionFive {
+    background-color: #8B48BF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 230px 40px 205px;
  }

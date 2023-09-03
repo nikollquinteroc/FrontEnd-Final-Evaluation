@@ -1,6 +1,6 @@
 # FrontEnd-Final-Evaluation
 
-# Estructura css
+# Estructura html y css
 
 `/ Nikoll Daiana Quintero Chavez`
 1. Etiqueta button en general
@@ -16,3 +16,6 @@
 
 `/ Nikoll Daiana Quintero Chavez`
 5. Etiqueta sectionTwo
+
+`/ Nikoll Daiana Quintero Chavez`
+6. Etiqueta sectionThree

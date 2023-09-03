@@ -289,11 +289,3 @@ article.personDescription {
  div#lightPurpleButton {
     text-align: center;
  }
-
- #sectionFive {
-    background-color: #8B48BF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 230px 40px 205px;
- }

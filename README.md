@@ -22,6 +22,3 @@
 
 `/ Nikoll Daiana Quintero Chavez`
 7. Etiqueta sectionFour
-
-`/ Nikoll Daiana Quintero Chavez`
-8. Etiqueta sectionFive

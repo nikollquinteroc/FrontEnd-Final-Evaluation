@@ -25,3 +25,6 @@
 
 `/ Nikoll Daiana Quintero Chavez`
 8. Etiqueta sectionFive 
+
+`/ Sofía Miranda Galvis`
+8. Etiqueta list (horizontal y vertical) 

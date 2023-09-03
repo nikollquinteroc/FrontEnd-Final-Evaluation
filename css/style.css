@@ -60,6 +60,7 @@ div.smallListButton {
 
 button.lightPurpleButton {
     background: #8B48BFB2;
+    width: 134px;
 }
 
 button.lightPurpleButton:hover {
@@ -108,6 +109,7 @@ h2#secondaryTitleWhite {
     letter-spacing: -0.5%;
     width: 420px;
     height: 96px;
+    text-align: left;
 }
 
 h2#secondaryTitleDarkBlue {
@@ -116,6 +118,8 @@ h2#secondaryTitleDarkBlue {
     letter-spacing: -1%;
     text-align: center;
     color: #242E53;
+    margin: 105px;
+    margin-bottom: 100px;
 }
 
 h3 {
@@ -161,6 +165,8 @@ h5.personNameTitle {
     line-height: 25.17px;
     letter-spacing: -1%;
     color: #3F4868;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 p {
@@ -189,10 +195,8 @@ p.paragraphPersonDescription {
     color: #B9B9C1;
     width: 403px;
     height: 100px;
-}
-
-#personDescriptionSection {
-    display: flex;
+    padding-right: 30px;
+    margin-bottom: 20px;
 }
 
 #sectionOne {
@@ -230,10 +234,8 @@ p.paragraphPersonDescription {
 div#firstListItems {
     display: flex;
     justify-content: space-evenly;
-    padding: 20px, 80px, 10px, 80px;
     margin-top: 45px;
-    margin-left: 70px;
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 div#lastListItem {
@@ -253,3 +255,36 @@ div.infoListItem {
     flex-direction: column;
     padding-top: 10px;
 }
+
+#sectionFour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 180px;
+}
+
+div#personDescriptionItems {
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFA;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+}
+
+article.personDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personPhoto {
+    position: relative;
+    bottom: 35px;
+}
+
+ div#lightPurpleButton {
+    text-align: center;
+ }

@@ -54,6 +54,10 @@ button.smallButton {
     font-size: 16px;
 }
 
+div.smallListButton {
+    margin-right: 25px;
+}
+
 button.lightPurpleButton {
     background: #8B48BFB2;
 }
@@ -149,6 +153,7 @@ h5.fifthTitle {
     line-height: 23.38px;
     letter-spacing: -1.5%;
     height: 23px;
+    margin-bottom: 15px;
 }
 
 h5.personNameTitle {
@@ -170,6 +175,7 @@ p.paragraphList {
     letter-spacing: -1%;
     width: 437px;
     height: 104px;
+    padding-right: 40px;
 }
 
 p#paragraphWhite {
@@ -207,9 +213,43 @@ p.paragraphPersonDescription {
 #sectionTwo {
     display: flex;
     background-color: #8B48BF;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
     margin-top: 100px;
     padding: 40px;
     padding-left: 100px;
     padding-right: 60px;
+}
+
+#sectionThree {
+    display: flex;
+    background-color: #FAFAFA;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+div#firstListItems {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px, 80px, 10px, 80px;
+    margin-top: 45px;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
+div#lastListItem {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+article.listItem {
+    display: flex;
+}
+
+div.infoListItem {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
 }

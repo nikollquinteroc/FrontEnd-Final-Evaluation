@@ -34,3 +34,6 @@
 
 `/ Sofía Miranda Galvis`
 11. Etiqueta header
+
+`/ Sofía Miranda Galvis`
+11. Etiqueta footer

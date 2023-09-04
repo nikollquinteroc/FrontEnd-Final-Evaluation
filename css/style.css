@@ -375,3 +375,39 @@ input#update::placeholder {
     line-height: 19px;
     color: #A0A0A0;
 }
+
+header{
+width: 1581.68.68px
+}
+
+#headerHome{
+    height: 174px;
+    padding: 65px 165px 65px 165px;
+    /* gap: 224px; lo indica figma pero no tiene sentido*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+#headerImages{
+    display: flex;
+    align-items: center;
+    width: 107.68px;
+    height: auto;
+    padding: 0;
+   /* margin-top: 74.5px;
+    margin-left: 199px;  CÓMO VERIFICAR ESTOS MÁRGENES?*/
+}
+/*Para lograr la separación entre las dos imágnes del header se agrega un margen derecho sólo a la primera imagen*/
+#headerImages img:first-child {
+    max-width: 100%;
+    margin-right: 9px; /* Agregar margen derecho solo a la primera imagen */
+}
+/* Ajustar el ancho de la segunda imagen según las especificaciones de figma */
+#headerImages img:nth-child(2) {
+    width: 73.28px; 
+}
+header.lightPurpleButton{
+    margin-top: 65px;
+    margin-left: 165px;
+}

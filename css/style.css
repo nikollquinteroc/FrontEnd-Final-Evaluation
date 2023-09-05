@@ -294,7 +294,6 @@ div#lightPurpleButton {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 230px 40px 205px;
 }
 
 #navBar {
@@ -322,8 +321,6 @@ a {
     font-weight: 500;
     font-size: 13px;
     color: #242E52;
-    /* Figma especifica esta propiedad que establece espacio entre las líneas pero considero que es un error ya que esta es una lista horizontal */
-    /* line-height: 18.99px; */
 }
 
 a.navLink:hover {
@@ -366,16 +363,41 @@ input#update {
     background-color: #FFFFFF;
     /* Necesario para eliminar un borde que al parecer le estaba generando el navegador */
     border: none;
-    /* gap: 10px; lo indica figma pero no tiene sentido */
-}
-
-input#update:hover {
-    background-color: gainsboro;
-    cursor: pointer;
 }
 
 input#update::placeholder {
     font-size: 13.18px;
     line-height: 19px;
     color: #A0A0A0;
+}
+
+header{
+width: 1581.68.68px
+}
+
+#headerHome{
+    height: 174px;
+    padding: 65px 165px 65px 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+#headerImages{
+    display: flex;
+    align-items: center;
+    width: 107.68px;
+    height: auto;
+    padding: 0;
+   /* margin-top: 74.5px;
+    margin-left: 199px;  CÓMO VERIFICAR ESTOS MÁRGENES?*/
+}
+/*Para lograr la separación entre las dos imágnes del header se agrega un margen derecho sólo a la primera imagen*/
+#headerImages img:first-child {
+    max-width: 100%;
+    margin-right: 9px; /* Agregar margen derecho solo a la primera imagen */
+}
+/* Ajustar el ancho de la segunda imagen según las especificaciones de figma */
+#headerImages img:nth-child(2) {
+    width: 73.28px; 
 }

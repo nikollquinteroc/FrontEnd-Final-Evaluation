@@ -36,4 +36,13 @@
 11. Etiqueta header
 
 `/ Sofía Miranda Galvis`
+9. Etiqueta list (horizontal y vertical) 
+
+`/ Sofía Miranda Galvis`
+10. Etiqueta form
+
+`/ Sofía Miranda Galvis`
+11. Etiqueta header
+
+`/ Sofía Miranda Galvis`
 11. Etiqueta footer

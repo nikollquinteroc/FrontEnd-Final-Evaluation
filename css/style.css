@@ -61,7 +61,6 @@ div.smallListButton {
 button.lightPurpleButton {
     background: #8B48BFB2;
     width: 134px;
-
 }
 
 button.lightPurpleButton:hover {
@@ -295,7 +294,6 @@ div#lightPurpleButton {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 230px 40px 205px;
 }
 
 #navBar {
@@ -367,6 +365,11 @@ input#update {
     border: none;
 }
 
+input#update:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
 input#update::placeholder {
     font-size: 13.18px;
     line-height: 19px;
@@ -401,11 +404,6 @@ width: 1581.68.68px
 #headerImages img:nth-child(2) {
 /* Ajustar el ancho de la segunda imagen según las especificaciones de figma */
 width: 73.28px; 
-}
-
-header.lightPurpleButton{
-    margin-top: 65px;
-    margin-left: 165px;
 }
 
 footer{

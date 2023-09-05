@@ -411,3 +411,41 @@ header.lightPurpleButton{
     margin-top: 65px;
     margin-left: 165px;
 }
+
+footer{
+    background-color: #1E1E26;
+}
+
+#footerMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#footerImages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 153.89px;
+}
+
+#fotterList{
+    display: flex;
+    justify-content: space-between; 
+    width: 392.73px     
+}
+
+
+
+
+
+#copyrigtht{
+    font-family: Be Vietnam;
+    font-weight: 500;
+    font-size: 12.5px;
+    color: #8C8C94;
+}
+#formAndCopy{
+    display: flex;
+}

@@ -323,8 +323,6 @@ a {
     font-weight: 500;
     font-size: 13px;
     color: #242E52;
-    /* Figma especifica esta propiedad que establece espacio entre las líneas pero considero que es un error ya que esta es una lista horizontal */
-    /* line-height: 18.99px; */
 }
 
 a.navLink:hover {
@@ -367,7 +365,6 @@ input#update {
     background-color: #FFFFFF;
     /* Necesario para eliminar un borde que al parecer le estaba generando el navegador */
     border: none;
-    /* gap: 10px; lo indica figma pero no tiene sentido */
 }
 
 input#update::placeholder {
@@ -383,7 +380,6 @@ width: 1581.68.68px
 #headerHome{
     height: 174px;
     padding: 65px 165px 65px 165px;
-    /* gap: 224px; lo indica figma pero no tiene sentido*/
     display: flex;
     justify-content: space-between;
     align-items: center;  
@@ -395,18 +391,18 @@ width: 1581.68.68px
     width: 107.68px;
     height: auto;
     padding: 0;
-   /* margin-top: 74.5px;
-    margin-left: 199px;  CÓMO VERIFICAR ESTOS MÁRGENES?*/
 }
-/*Para lograr la separación entre las dos imágnes del header se agrega un margen derecho sólo a la primera imagen*/
+
 #headerImages img:first-child {
-    max-width: 100%;
-    margin-right: 9px; /* Agregar margen derecho solo a la primera imagen */
+/* Agregar margen derecho solo a la primera imagen */
+    margin-right: 9px; 
 }
-/* Ajustar el ancho de la segunda imagen según las especificaciones de figma */
+
 #headerImages img:nth-child(2) {
-    width: 73.28px; 
+/* Ajustar el ancho de la segunda imagen según las especificaciones de figma */
+width: 73.28px; 
 }
+
 header.lightPurpleButton{
     margin-top: 65px;
     margin-left: 165px;
@@ -414,38 +410,63 @@ header.lightPurpleButton{
 
 footer{
     background-color: #1E1E26;
+    padding-top: 53px;  
 }
 
 #footerMain{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;  
+    height: 247px;
+    padding: 56px 195px 56px 200px
 }
 
-#footerImages{
+#footerImagesDiv {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 153.89px;
+    height: 141.14px; 
 }
 
-#fotterList{
+#sportIcons img:first-child {
+    /* Agregar margen derecho solo a la primera imagen */
+    margin-right: 9px;  
+}    
+
+#sportIcons {
+    align-self: flex-start; 
+}
+
+#socialMedia{
+    align-self: flex-end; 
+}
+
+#fotterListDiv{
     display: flex;
     justify-content: space-between; 
-    width: 392.73px     
+    width: 385.73px;
+    line-height: 37px;  
 }
 
-
-
-
-
-#copyrigtht{
+#copyrigtht {
     font-family: Be Vietnam;
     font-weight: 500;
     font-size: 12.5px;
     color: #8C8C94;
+    align-self: flex-end;
 }
-#formAndCopy{
+
+#formAndCopyDiv {
     display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width: 278.81px;
+    height: 141.1px; 
+}
+
+#searchForm {
+    display: flex;
+    justify-content: space-between;
+    width: 278.81px;
 }

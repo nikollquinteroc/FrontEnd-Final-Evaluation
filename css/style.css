@@ -294,6 +294,7 @@ div#lightPurpleButton {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 230px 40px 205px;
 }
 
 #navBar {
@@ -377,7 +378,8 @@ input#update::placeholder {
 }
 
 header{
-width: 1581.68.68px
+    /* PENDIENTE REVISIÓN VALOR DEL ANCHO! */
+    width: 1581.68.68px;
 }
 
 #headerHome{
@@ -403,7 +405,7 @@ width: 1581.68.68px
 
 #headerImages img:nth-child(2) {
 /* Ajustar el ancho de la segunda imagen según las especificaciones de figma */
-width: 73.28px; 
+    width: 73.28px; 
 }
 
 footer{

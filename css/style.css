@@ -61,7 +61,6 @@ div.smallListButton {
 button.lightPurpleButton {
     background: #8B48BFB2;
     width: 134px;
-
 }
 
 button.lightPurpleButton:hover {
@@ -323,8 +322,6 @@ a {
     font-weight: 500;
     font-size: 13px;
     color: #242E52;
-    /* Figma especifica esta propiedad que establece espacio entre las líneas pero considero que es un error ya que esta es una lista horizontal */
-    /* line-height: 18.99px; */
 }
 
 a.navLink:hover {
@@ -367,7 +364,6 @@ input#update {
     background-color: #FFFFFF;
     /* Necesario para eliminar un borde que al parecer le estaba generando el navegador */
     border: none;
-    /* gap: 10px; lo indica figma pero no tiene sentido */
 }
 
 input#update::placeholder {
@@ -383,7 +379,6 @@ width: 1581.68.68px
 #headerHome{
     height: 174px;
     padding: 65px 165px 65px 165px;
-    /* gap: 224px; lo indica figma pero no tiene sentido*/
     display: flex;
     justify-content: space-between;
     align-items: center;  
@@ -406,8 +401,4 @@ width: 1581.68.68px
 /* Ajustar el ancho de la segunda imagen según las especificaciones de figma */
 #headerImages img:nth-child(2) {
     width: 73.28px; 
-}
-header.lightPurpleButton{
-    margin-top: 65px;
-    margin-left: 165px;
 }

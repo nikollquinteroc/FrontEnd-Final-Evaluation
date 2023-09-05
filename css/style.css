@@ -61,7 +61,6 @@ div.smallListButton {
 button.lightPurpleButton {
     background: #8B48BFB2;
     width: 134px;
-    
 }
 
 button.lightPurpleButton:hover {
@@ -286,7 +285,7 @@ article.personDescription {
     bottom: 35px;
 }
 
- div#lightPurpleButton {
+div#lightPurpleButton {
     text-align: center;
 }
 
@@ -298,27 +297,27 @@ article.personDescription {
     padding: 40px 230px 40px 205px;
 }
 
-#navBar{
-    width: 397px; 
+#navBar {
+    width: 397px;
 }
 
-ul{
+ul {
     list-style: none;
     padding: 0;
 }
 
-#navBarUl{
+#navBarUl {
     height: 23px;
     display: flex;
     justify-content: space-between;
 }
 
-a{
-    text-decoration: none;  
+a {
+    text-decoration: none;
 }
 
-.navLink{
-    position: relative; 
+.navLink {
+    position: relative;
     font-family: 'Be Vietnam', sans-serif;
     font-weight: 500;
     font-size: 13px;
@@ -332,7 +331,7 @@ a.navLink:hover {
     cursor: pointer;
 }
 
-.verticalLink{
+.verticalLink {
     font-family: 'Be Vietnam', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -340,13 +339,43 @@ a.navLink:hover {
     line-height: 23.38px;
 }
 
-#verticalList1{
+#verticalList1 {
     width: 69px;
     height: 128px;
 }
 
-#verticalList2{
+#verticalList2 {
     width: 105px;
     height: 93px;
     gap: 12px;
+}
+
+input {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+input#update {
+    width: 201px;
+    height: 44px;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 13.18px;
+    color: #A0A0A0;
+    line-height: 19.26;
+    background-color: #FFFFFF;
+    /* Necesario para eliminar un borde que al parecer le estaba generando el navegador */
+    border: none;
+    /* gap: 10px; lo indica figma pero no tiene sentido */
+}
+
+input#update:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+input#update::placeholder {
+    font-size: 13.18px;
+    line-height: 19px;
+    color: #A0A0A0;
 }

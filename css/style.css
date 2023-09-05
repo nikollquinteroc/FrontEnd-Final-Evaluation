@@ -288,12 +288,65 @@ article.personDescription {
 
  div#lightPurpleButton {
     text-align: center;
- }
+}
 
- #sectionFive {
+#sectionFive {
     background-color: #8B48BF;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 230px 40px 205px;
- }
+}
+
+#navBar{
+    width: 397px; 
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+#navBarUl{
+    height: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;  
+}
+
+.navLink{
+    position: relative; 
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #242E52;
+    /* Figma especifica esta propiedad que establece espacio entre las líneas pero considero que es un error ya que esta es una lista horizontal */
+    /* line-height: 18.99px; */
+}
+
+a.navLink:hover {
+    color: rgba(36, 46, 82, 0.6);
+    cursor: pointer;
+}
+
+.verticalLink{
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 23.38px;
+}
+
+#verticalList1{
+    width: 69px;
+    height: 128px;
+}
+
+#verticalList2{
+    width: 105px;
+    height: 93px;
+    gap: 12px;
+}

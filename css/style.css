@@ -294,6 +294,7 @@ div#lightPurpleButton {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 230px 40px 205px;
 }
 
 #navBar {
@@ -365,6 +366,11 @@ input#update {
     border: none;
 }
 
+input#update:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+    
 input#update::placeholder {
     font-size: 13.18px;
     line-height: 19px;

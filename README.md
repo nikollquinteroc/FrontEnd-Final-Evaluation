@@ -37,3 +37,6 @@
 
 `/ Sofía Miranda Galvis`
 12. Etiqueta footer
+
+`/ Sofía Miranda Galvis`
+13. Actualización en fomulario y header 

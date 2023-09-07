@@ -352,7 +352,7 @@ input {
     font-family: 'Be Vietnam', sans-serif;
 }
 
-input#update {
+input#email {
     width: 201px;
     height: 44px;
     border-radius: 50px;
@@ -366,20 +366,19 @@ input#update {
     border: none;
 }
 
-input#update:hover {
+input#email:hover {
     background-color: gainsboro;
     cursor: pointer;
 }
 
-input#update::placeholder {
+input#email::placeholder {
     font-size: 13.18px;
     line-height: 19px;
     color: #A0A0A0;
 }
 
 header{
-    /* PENDIENTE REVISIÓN VALOR DEL ANCHO! */
-    width: 1581.68.68px;
+    width: 100%;
 }
 
 #headerHome{

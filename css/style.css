@@ -42,6 +42,7 @@ button:hover {
 button.whiteButton {
     background-color: white;
     color: #8B48BF;
+    display: block;
 }
 
 button.whiteButton:hover {
@@ -71,6 +72,7 @@ button.lightPurpleButton:hover {
 
 button.darkBlueButton {
     background-color: #232C50;
+    display: none;
 }
 
 button.darkBlueButton:hover {
@@ -379,20 +381,20 @@ input#update::placeholder {
     color: #A0A0A0;
 }
 
-header{
+header {
     /* PENDIENTE REVISIÓN VALOR DEL ANCHO! */
     width: 1581.68.68px;
 }
 
-#headerHome{
+#headerHome {
     height: 174px;
     padding: 65px 165px 65px 165px;
     display: flex;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
 }
 
-#headerImages{
+#headerImages {
     display: flex;
     align-items: center;
     width: 107.68px;
@@ -401,23 +403,23 @@ header{
 }
 
 #headerImages img:first-child {
-/* Agregar margen derecho solo a la primera imagen */
-    margin-right: 9px; 
+    /* Agregar margen derecho solo a la primera imagen */
+    margin-right: 9px;
 }
 
 #headerImages img:nth-child(2) {
-/* Ajustar el ancho de la segunda imagen según las especificaciones de figma */
-    width: 73.28px; 
+    /* Ajustar el ancho de la segunda imagen según las especificaciones de figma */
+    width: 73.28px;
 }
 
-footer{
+footer {
     background-color: #1E1E26;
-    padding-top: 53px;  
+    padding-top: 53px;
 }
 
-#footerMain{
+#footerMain {
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
     height: 247px;
     padding: 56px 195px 56px 200px
 }
@@ -428,27 +430,27 @@ footer{
     justify-content: space-between;
     align-items: center;
     width: 153.89px;
-    height: 141.14px; 
+    height: 141.14px;
 }
 
 #sportIcons img:first-child {
     /* Agregar margen derecho solo a la primera imagen */
-    margin-right: 9px;  
-}    
+    margin-right: 9px;
+}
 
 #sportIcons {
-    align-self: flex-start; 
+    align-self: flex-start;
 }
 
-#socialMedia{
-    align-self: flex-end; 
+#socialMedia {
+    align-self: flex-end;
 }
 
-#fotterListDiv{
+#fotterListDiv {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     width: 385.73px;
-    line-height: 37px;  
+    line-height: 37px;
 }
 
 #copyrigtht {
@@ -461,10 +463,10 @@ footer{
 
 #formAndCopyDiv {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
     width: 278.81px;
-    height: 141.1px; 
+    height: 141.1px;
 }
 
 #searchForm {
@@ -473,18 +475,31 @@ footer{
     width: 278.81px;
 }
 
-@media (max-width:480px){
+p#paragraphWhite {
+    display: block;
+}
+
+p#paragraphWhiteMobile {
+    display: none;
+} 
+
+button.lightButtonMobile {
+    display: none;
+}
+
+@media (max-width:480px) {
 
     #sectionOne {
         flex-direction: column;
         margin-left: 40px;
         margin-right: 40px;
         width: 400px;
-        align-items: center; 
+        align-items: center;
     }
 
-    #tennisPlayer, #fraseHome  {
-        width: 400px;   
+    #tennisPlayer,
+    #fraseHome {
+        width: 400px;
     }
 
     #fraseHome {
@@ -492,7 +507,8 @@ footer{
         padding-bottom: 0px;
     }
 
-    h1#mainTitle, h5#fourthTitle  {
+    h1#mainTitle,
+    h5#fourthTitle {
         width: 400px;
         margin-bottom: 20px;
     }
@@ -509,6 +525,7 @@ footer{
         color: #FFFFFF;
         margin-top: 45px;
         padding-right: 30px;
+        display: block;
         /* Resolver que el parrafo quede similar */
     }
 
@@ -523,35 +540,91 @@ footer{
 
     section#sectionThree {
         background-color: white;
-        flex-direction: column;
         width: 446px;
-        /* float: right; */
     }
 
-    div#firstListItems, div#lastListItem {
+    div#firstListItems {
         flex-direction: column;
         width: 446px;
-    }  
+        margin-left: 40px;
+    }
 
-    div#infoListItem,   h5.fifthTitle {
+    div#infoListItem,
+    h5.fifthTitle {
         width: 446px;
     }
 
     div#lastListItem {
         align-content: flex-end;
+
     }
 
-    p.paragraphList, article.listItem {
+    p.paragraphList,
+    article.listItem {
         width: 428px;
     }
 
-    h5.fifthTitle {
+    article.listItem {
+        justify-content: flex-end;
         background-color: #8B48BF4D;
     }
+
+    p.paragraphList {
+        padding: 10px;
+    }
+
+    /* h5.fifthTitle {
+        background-color: #8B48BF4D;
+    } */
 
     div.smallListButton {
         margin: 0px;
     }
 
- 
+    section#sectionFour {
+        margin: 50px 20px;
+
+    }
+
+    /* Estilo para ocultar todos los elementos .personDescription que no sean el primer hijo */
+    #personDescriptionItems .personDescription:not(:first-child) {
+        display: none;
+    }
+
+    /* #personDescriptionItems .personDescription:first-child {
+        display: block;
+    } */
+
+    section#sectionFive {
+        flex-direction: column;
+        background-color: #3CDDF3;
+        padding: 0;
+    }
+
+    h2#secondaryTitleWhite {
+        width: 324px;
+        height: 192px;
+        text-align: center;
+        margin: 30px 50px;
+        /* Acomodar titulo para quede igual */
+    }
+
+    button.darkBlueButton {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    button.whiteButton {
+        display: none;
+    }
+
+    button.lightButtonMobile {
+        display: block;
+    }
+
+    button.lightPurpleButton {
+        display: none;
+    }
+
+
 }

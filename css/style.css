@@ -583,7 +583,6 @@ button.lightButtonMobile {
 
     section#sectionFour {
         margin: 50px 20px;
-
     }
 
     /* Estilo para ocultar todos los elementos .personDescription que no sean el primer hijo */
@@ -625,6 +624,4 @@ button.lightButtonMobile {
     button.lightPurpleButton {
         display: none;
     }
-
-
 }

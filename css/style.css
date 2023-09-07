@@ -8,7 +8,9 @@
 body {
     /* Aplica la fuente 'Be Vietnam' como fuente principal */
     height: 100%;
+    width: 100%;
     font-family: 'Be Vietnam', sans-serif;
+    border-color: red;
 }
 
 button {
@@ -469,4 +471,87 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 278.81px;
+}
+
+@media (max-width:480px){
+
+    #sectionOne {
+        flex-direction: column;
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 400px;
+        align-items: center; 
+    }
+
+    #tennisPlayer, #fraseHome  {
+        width: 400px;   
+    }
+
+    #fraseHome {
+        padding-top: 80px;
+        padding-bottom: 0px;
+    }
+
+    h1#mainTitle, h5#fourthTitle  {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    #sectionTwo {
+        background-color: #3CDDF3;
+        flex-direction: column;
+        margin-top: 40px;
+        padding: 40px 20px;
+    }
+
+    p#paragraphWhiteMobile {
+        width: 440px;
+        color: #FFFFFF;
+        margin-top: 45px;
+        padding-right: 30px;
+        /* Resolver que el parrafo quede similar */
+    }
+
+    p#paragraphWhite {
+        display: none;
+    }
+
+    h3#thirdTitle {
+        width: 440px;
+        padding-right: 100px;
+    }
+
+    section#sectionThree {
+        background-color: white;
+        flex-direction: column;
+        width: 446px;
+        /* float: right; */
+    }
+
+    div#firstListItems, div#lastListItem {
+        flex-direction: column;
+        width: 446px;
+    }  
+
+    div#infoListItem,   h5.fifthTitle {
+        width: 446px;
+    }
+
+    div#lastListItem {
+        align-content: flex-end;
+    }
+
+    p.paragraphList, article.listItem {
+        width: 428px;
+    }
+
+    h5.fifthTitle {
+        background-color: #8B48BF4D;
+    }
+
+    div.smallListButton {
+        margin: 0px;
+    }
+
+ 
 }

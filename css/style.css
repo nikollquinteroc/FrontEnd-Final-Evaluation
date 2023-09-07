@@ -377,19 +377,19 @@ input#email::placeholder {
     color: #A0A0A0;
 }
 
-header{
+header {
     width: 100%;
 }
 
-#headerHome{
+#headerHome {
     height: 174px;
     padding: 65px 165px 65px 165px;
     display: flex;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
 }
 
-#headerImages{
+#headerImages {
     display: flex;
     align-items: center;
     width: 107.68px;
@@ -398,23 +398,47 @@ header{
 }
 
 #headerImages img:first-child {
-/* Agregar margen derecho solo a la primera imagen */
-    margin-right: 9px; 
+    /* Agregar margen derecho solo a la primera imagen */
+    margin-right: 9px;
 }
 
 #headerImages img:nth-child(2) {
-/* Ajustar el ancho de la segunda imagen según las especificaciones de figma */
-    width: 73.28px; 
+    /* Ajustar el ancho de la segunda imagen según las especificaciones de figma */
+    width: 73.28px;
 }
 
-footer{
+#menuIcon {
+    display: none;
+}
+
+@media (max-width:480px) {
+
+    #navBar {
+        display: none;
+    }
+
+    #headerButton {
+        display: none;
+    }
+
+    #menuIcon {
+        display: inline-flex;
+    }
+
+    #headerHome {
+        padding: 40px 56px 40px 50px;
+        height: auto;
+    }
+}
+
+footer {
     background-color: #1E1E26;
-    padding-top: 53px;  
+    padding-top: 53px;
 }
 
-#footerMain{
+#footerMain {
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
     height: 247px;
     padding: 56px 195px 56px 200px
 }
@@ -425,27 +449,27 @@ footer{
     justify-content: space-between;
     align-items: center;
     width: 153.89px;
-    height: 141.14px; 
+    height: 141.14px;
 }
 
 #sportIcons img:first-child {
     /* Agregar margen derecho solo a la primera imagen */
-    margin-right: 9px;  
-}    
+    margin-right: 9px;
+}
 
 #sportIcons {
-    align-self: flex-start; 
+    align-self: flex-start;
 }
 
-#socialMedia{
-    align-self: flex-end; 
+#socialMedia {
+    align-self: flex-end;
 }
 
-#fotterListDiv{
+#fotterListDiv {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     width: 385.73px;
-    line-height: 37px;  
+    line-height: 37px;
 }
 
 #copyrigtht {
@@ -458,10 +482,10 @@ footer{
 
 #formAndCopyDiv {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
     width: 278.81px;
-    height: 141.1px; 
+    height: 141.1px;
 }
 
 #searchForm {

@@ -37,3 +37,18 @@
 
 `/ Sofía Miranda Galvis`
 12. Etiqueta footer
+
+`/ Nikoll Daiana Quintero Chavez`
+16. Media Query SectionOne
+
+`/ Nikoll Daiana Quintero Chavez`
+17. Media Query SectionTwo
+
+`/ Nikoll Daiana Quintero Chavez`
+18. Media Query SectionThree
+
+`/ Nikoll Daiana Quintero Chavez`
+19. Media Query SectionFour
+
+`/ Nikoll Daiana Quintero Chavez`
+20. Media Query SectionFive

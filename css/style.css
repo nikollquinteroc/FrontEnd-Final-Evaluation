@@ -489,6 +489,7 @@ button.lightButtonMobile {
 
 @media (max-width:480px) {
 
+    /* SectionOne */
     #sectionOne {
         flex-direction: column;
         margin-left: 40px;
@@ -513,6 +514,7 @@ button.lightButtonMobile {
         margin-bottom: 20px;
     }
 
+    /* SectionTwo */
     #sectionTwo {
         background-color: #3CDDF3;
         flex-direction: column;
@@ -526,7 +528,6 @@ button.lightButtonMobile {
         margin-top: 45px;
         padding-right: 30px;
         display: block;
-        /* Resolver que el parrafo quede similar */
     }
 
     p#paragraphWhite {
@@ -538,18 +539,11 @@ button.lightButtonMobile {
         padding-right: 100px;
     }
 
+    /* SectionThree */
     section#sectionThree {
         background-color: white;
         justify-content: right;
-        /* width: 446px; */
-        /* margin: 0 auto; */
-
-        /* margin-right: 0px; */
-        /* margin-top: 50px; */
-        border: 2px solid red;
         overflow-x: hidden;
-        /* padding-top: 10rem; */
-
     }
 
     .container {
@@ -562,43 +556,19 @@ button.lightButtonMobile {
         flex-direction: column;
         justify-content: flex-end;
         margin-top: -5px;
-        /* width: 446px;
-        height: 214px; */
     }
 
     article.listItem .infoListItem {
-        /* width: 446px;
-        margin: 0 auto; */
-
         padding-left: 30px;
     }
 
     article.listItem {
         justify-content: end;
         margin-bottom: 30px;
-
     }
 
     div#infoListItem {
-        /* width: 446px; */
         padding-right: 150px;
-        background-color: red;
-    }
-
-    div#lastListItem div.smallListButton .smallButton {
-        /* align-content: flex-end;
-        justify-content: flex-end;
-        align-items: stretch; */
-        /* width: 446px; */
-        /* margin-right: 0px;
-        margin-left: 40px;
-        height: 214px; */
-        /* background-color: red; */
-        /* position: absolute; */
-
-        /* left: 50px; */
-
-
     }
 
     div.smallListButton {
@@ -608,11 +578,6 @@ button.lightButtonMobile {
         margin-right: -25px;
     }
 
-    div#lastListItem div.smallListButton .smallButton {
-        position: absolute;
-        
-    }
-    
     div.smallListButton .smallButton {
         position: absolute;
         inset: 0;
@@ -621,51 +586,39 @@ button.lightButtonMobile {
 
     p.paragraphList {
         padding: 10px;
+        padding-right: 25px;
         width: 408px;
         margin-bottom: 10px;
     }
 
-    .www .infoListItem > * {
-        /* background-color: darksalmon; */
-        /* border: 2px dashed black; */
-        /* position: relative; */
-        /* margin-left: -100px; */
-        /* width:fit-content; */
+    .lastItem .infoListItem > * {
         margin-left: -90px;
-
-
     }
 
-    .www .infoListItem > h5 {
-        padding-left: 100px;
+    .lastItem .infoListItem > h5 {
+        padding-left: 80px;
     }
 
-    .www .smallListButton .smallButton {
-        /* background-color: darkblue; */
+    .lastItem .smallListButton .smallButton {
         position: absolute;
-        left: -15px;
-        top: 15px;
+        left: -25px;
     }
 
-    /* Ajustar titulo */
+    div#lastListItem div.smallListButton .smallButton {
+        position: absolute;
+        right: 100px;
+        top: 10px;
+    }
+
     h5.fifthTitle {
         background-color: #8B48BF4D;
-        /* width: 446px; */
-        /* padding-block: 20px; */
-        /* height: -23px; */
         border-radius: 50vh 0 0 50vh;
         line-height: 3;
         padding-left: 80px;
         box-shadow: 4rem 0 0 #8B48BF4D;
-
-
-
     }
 
-    div.smallListButton {
-        /* margin: 0 auto; */
-    }
-
+    /* SectionFour */
     section#sectionFour {
         margin: 50px 20px;
         justify-content: center;
@@ -708,6 +661,7 @@ button.lightButtonMobile {
         display: none;
     }
 
+    /* SectionFive */
     section#sectionFive {
         flex-direction: column;
         background-color: #3CDDF3;
@@ -719,7 +673,6 @@ button.lightButtonMobile {
         height: 192px;
         text-align: center;
         margin: 30px 50px;
-        /* Acomodar titulo para quede igual */
     }
 
     .lineBreak {

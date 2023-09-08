@@ -8,7 +8,9 @@
 body {
     /* Aplica la fuente 'Be Vietnam' como fuente principal */
     height: 100%;
+    width: 100%;
     font-family: 'Be Vietnam', sans-serif;
+    border-color: red;
 }
 
 button {
@@ -40,6 +42,7 @@ button:hover {
 button.whiteButton {
     background-color: white;
     color: #8B48BF;
+    display: block;
 }
 
 button.whiteButton:hover {
@@ -69,6 +72,7 @@ button.lightPurpleButton:hover {
 
 button.darkBlueButton {
     background-color: #232C50;
+    display: none;
 }
 
 button.darkBlueButton:hover {
@@ -154,9 +158,9 @@ h5#fourthTitle {
 h5.fifthTitle {
     color: #323851;
     font-size: 16px;
-    line-height: 23.38px;
+    /* line-height: 23.38px; */
     letter-spacing: -1.5%;
-    height: 23px;
+    /* height: 23px; */
     margin-bottom: 15px;
 }
 
@@ -478,6 +482,18 @@ footer {
     width: 278.81px;
 }
 
+p#paragraphWhite {
+    display: block;
+}
+
+p#paragraphWhiteMobile {
+    display: none;
+}
+
+button.lightButtonMobile {
+    display: none;
+}
+
 @media (max-width:480px) {
 
     /*Header */
@@ -496,6 +512,205 @@ footer {
     #headerHome {
         padding: 40px 56px 40px 50px;
         height: auto;
+    }
+
+    /* SectionOne */
+    #sectionOne {
+        flex-direction: column;
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 400px;
+        align-items: center;
+    }
+
+    #tennisPlayer,
+    #fraseHome {
+        width: 400px;
+    }
+
+    #fraseHome {
+        padding-top: 80px;
+        padding-bottom: 0px;
+    }
+
+    h1#mainTitle,
+    h5#fourthTitle {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    /* SectionTwo */
+    #sectionTwo {
+        background-color: #3CDDF3;
+        flex-direction: column;
+        margin-top: 40px;
+        padding: 40px 20px;
+    }
+
+    p#paragraphWhiteMobile {
+        width: 440px;
+        color: #FFFFFF;
+        margin-top: 45px;
+        padding-right: 30px;
+        display: block;
+    }
+
+    p#paragraphWhite {
+        display: none;
+    }
+
+    h3#thirdTitle {
+        width: 440px;
+        padding-right: 100px;
+    }
+
+    /* SectionThree */
+    section#sectionThree {
+        background-color: white;
+        justify-content: right;
+        overflow-x: hidden;
+    }
+
+    .container {
+        background-color: white;
+        padding-inline: 3rem;
+        padding-top: 5rem;
+    }
+
+    div#firstListItems {
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: -5px;
+    }
+
+    article.listItem .infoListItem {
+        padding-left: 30px;
+    }
+
+    article.listItem {
+        justify-content: end;
+        margin-bottom: 30px;
+    }
+
+    div#infoListItem {
+        padding-right: 150px;
+    }
+
+    div.smallListButton {
+        width: 70px;
+        height: 43px;
+        position: relative;
+        margin-right: -25px;
+    }
+
+    div.smallListButton .smallButton {
+        position: absolute;
+        inset: 0;
+        top: 10px;
+    }
+
+    p.paragraphList {
+        padding: 10px;
+        padding-right: 25px;
+        width: 408px;
+        margin-bottom: 10px;
+    }
+
+    .lastItem .infoListItem > * {
+        margin-left: -90px;
+    }
+
+    .lastItem .infoListItem > h5 {
+        padding-left: 80px;
+    }
+
+    .lastItem .smallListButton .smallButton {
+        position: absolute;
+        left: -25px;
+    }
+
+    div#lastListItem div.smallListButton .smallButton {
+        position: absolute;
+        right: 100px;
+        top: 10px;
+    }
+
+    h5.fifthTitle {
+        background-color: #8B48BF4D;
+        border-radius: 50vh 0 0 50vh;
+        line-height: 3;
+        padding-left: 80px;
+        box-shadow: 4rem 0 0 #8B48BF4D;
+    }
+
+    /* SectionFour */
+    section#sectionFour {
+        margin: 50px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2#secondaryTitleDarkBlue {
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* Estilo para ocultar todos los elementos .personDescription que no sean el primer hijo */
+    #personDescriptionItems .personDescription:not(:nth-child(2)) {
+        display: none;
+    }
+
+    #personDescriptionItems .personDescription:nth-child(2) {
+        display: block;
+        width: 445px;
+    }
+
+    div#personDescriptionItems {
+        background-color: #FAFAFA;
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+
+    p.paragraphPersonDescription {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 45px;
+    }
+
+    button.lightButtonMobile {
+        display: block;
+    }
+
+    button.lightPurpleButton {
+        display: none;
+    }
+
+    /* SectionFive */
+    section#sectionFive {
+        flex-direction: column;
+        background-color: #3CDDF3;
+        padding: 0;
+    }
+
+    h2#secondaryTitleWhite {
+        width: 324px;
+        height: 192px;
+        text-align: center;
+        margin: 30px 50px;
+    }
+
+    .lineBreak {
+        display: block;
+    }
+
+    button.darkBlueButton {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    button.whiteButton {
+        display: none;
     }
 
     /* Footer */

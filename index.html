@@ -14,6 +14,7 @@
             <img src="img/Subtract.png" alt="img azul">
             <img src="img/Sports.png" alt="img sports">
         </div>
+        <img id="menuIcon" src="img/menu_hamburguesa.png" alt="menu">
         <nav id="navBar">
             <ul id="navBarUl">
                 <li><a class="navLink" href="#">Sports</a></li>
@@ -23,7 +24,8 @@
                 <li><a class="navLink" href="#">Community</a></li>
             </ul>
         </nav>
-        <button>Contact</button>
+        <button id="headerButton">Contact</button>
+
     </header>
 
     <main>
@@ -132,35 +134,38 @@
         </section>
 
     </main>
-
-    <footer id="footerMain">
-        <div id="footerImagesDiv">
-            <div id="sportIcons">
-                <img src="img/Subtract.png" alt="img azul">
-                <img src="img/sportitWhite.png" alt="img sports white">
+    
+    <footer>    
+        <div  id="footerMain">
+            <div id="footerImagesDiv">
+                <div id="sportIcons">
+                    <img src="img/Subtract.png" alt="img azul">
+                    <img src="img/sportitWhite.png" alt="img sports white">
+                </div>
+                <img id="socialMedia" src="img/socialMedia.png" alt="social media">
+                <img id="mobileSocialMedia" src="img/mobile iconos redes sociales.png" alt="social media mobile">
+            </div>   
+            <div id="fotterListDiv">
+                <ul id="verticalList1">
+                    <li><a class="verticalLink" href="#">Home</a></li>
+                    <li><a class="verticalLink" href="#">Pricing</a></li>
+                    <li><a class="verticalLink" href="#">Products</a></li>
+                    <li><a class="verticalLink" href="#">About Us</a></li>
+                </ul>
+                <ul id="verticalList2">
+                    <li><a class="verticalLink" href="#">Trainning</a></li>
+                    <li><a class="verticalLink" href="#">Community</a></li>
+                    <li><a class="verticalLink" href="#">Privacy Policy</a></li>
+                </ul>
             </div>
-            <img id="socialMedia" src="img/socialMedia.png" alt="social media">
+            <div id="formDiv">
+                <form id="searchForm" action="/registro" method="post">
+                    <input type="email" name="email"  id="email" placeholder="Update in your inbox...">
+                    <button type="submit" class="smallButton">Go</button>             
+                </form>                
+            </div>            
         </div>
-        <div id="fotterListDiv">
-            <ul id="verticalList1">
-                <li><a class="verticalLink" href="#">Home</a></li>
-                <li><a class="verticalLink" href="#">Pricing</a></li>
-                <li><a class="verticalLink" href="#">Products</a></li>
-                <li><a class="verticalLink" href="#">About Us</a></li>
-            </ul>
-            <ul id="verticalList2">
-                <li><a class="verticalLink" href="#">Trainning</a></li>
-                <li><a class="verticalLink" href="#">Community</a></li>
-                <li><a class="verticalLink" href="#">Privacy Policy</a></li>
-            </ul>
-        </div>
-        <div id="formAndCopyDiv">
-            <form id="searchForm">
-                <input type="text" id="update" placeholder="Update in your inbox...">
-                <button class="smallButton">Go</button>
-            </form>
-            <p id="copyrigtht">Copyright 2020. All Rights Reserved</p>
-        </div>
+        <p id="copyrigtht">Copyright 2020. All Rights Reserved</p>
     </footer>
 </body>
 

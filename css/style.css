@@ -413,14 +413,13 @@ header {
 
 footer {
     background-color: #1E1E26;
-    padding-top: 53px;
 }
 
 #footerMain {
     display: flex;
     justify-content: space-between;
-    height: 247px;
-    padding: 56px 195px 56px 200px
+    height: 180px;
+    padding: 56px 195px 0.1px 200px
 }
 
 #footerImagesDiv {
@@ -445,6 +444,10 @@ footer {
     align-self: flex-end;
 }
 
+#mobileSocialMedia{
+    display: none;
+}
+
 #fotterListDiv {
     display: flex;
     justify-content: space-between;
@@ -457,10 +460,11 @@ footer {
     font-weight: 500;
     font-size: 12.5px;
     color: #8C8C94;
-    align-self: flex-end;
+    margin-left: 1000px;
+    padding-bottom: 45px;
 }
 
-#formAndCopyDiv {
+#formDiv {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -476,6 +480,7 @@ footer {
 
 @media (max-width:480px) {
 
+    /*Header */
     #navBar {
         display: none;
     }
@@ -491,5 +496,63 @@ footer {
     #headerHome {
         padding: 40px 56px 40px 50px;
         height: auto;
+    }
+
+    /* Footer */
+    #footerMain {
+        flex-direction: column-reverse;
+        padding: 0px;
+        height: 500px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #searchForm {
+        width: 380px;
+        display: flex;
+        justify-content: inherit;
+        align-self: center;
+        gap: 9px;       
+    }
+
+    #searchForm img:first-child{
+        margin-right: 12px;
+    }
+
+    input#email{
+        width: 308px;
+    }
+
+    #fotterListDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 30px;
+    }
+
+    #footerImagesDiv {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100px;
+    }
+   
+    #socialMedia{
+        display: none;
+    }
+
+    #mobileSocialMedia{
+        align-items: flex-start;
+        display: block;
+    }
+    
+    #copyrigtht{
+        text-align: center;
+        margin-left: 0%;
+        width:auto;  
+        padding-bottom: 30px;
+    }
+
+    #formDiv{
+        height: 0;
     }
 }

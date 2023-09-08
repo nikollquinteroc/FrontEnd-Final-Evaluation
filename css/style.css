@@ -411,26 +411,6 @@ header {
     display: none;
 }
 
-@media (max-width:480px) {
-
-    #navBar {
-        display: none;
-    }
-
-    #headerButton {
-        display: none;
-    }
-
-    #menuIcon {
-        display: inline-flex;
-    }
-
-    #headerHome {
-        padding: 40px 56px 40px 50px;
-        height: auto;
-    }
-}
-
 footer {
     background-color: #1E1E26;
     padding-top: 53px;
@@ -492,4 +472,24 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 278.81px;
+}
+
+@media (max-width:480px) {
+
+    #navBar {
+        display: none;
+    }
+
+    #headerButton {
+        display: none;
+    }
+
+    #menuIcon {
+        display: inline-flex;
+    }
+
+    #headerHome {
+        padding: 40px 56px 40px 50px;
+        height: auto;
+    }
 }

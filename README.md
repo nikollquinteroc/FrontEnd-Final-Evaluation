@@ -40,3 +40,9 @@
 
 `/ Sofía Miranda Galvis`
 13. Actualización en fomulario y header 
+
+`/ Sofía Miranda Galvis`
+14. Media query header 
+
+`/ Sofía Miranda Galvis`
+15. Media query footer 

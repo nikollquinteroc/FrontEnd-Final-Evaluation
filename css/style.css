@@ -158,9 +158,9 @@ h5#fourthTitle {
 h5.fifthTitle {
     color: #323851;
     font-size: 16px;
-    line-height: 23.38px;
+    /* line-height: 23.38px; */
     letter-spacing: -1.5%;
-    height: 23px;
+    /* height: 23px; */
     margin-bottom: 15px;
 }
 
@@ -481,7 +481,7 @@ p#paragraphWhite {
 
 p#paragraphWhiteMobile {
     display: none;
-} 
+}
 
 button.lightButtonMobile {
     display: none;
@@ -540,59 +540,173 @@ button.lightButtonMobile {
 
     section#sectionThree {
         background-color: white;
-        width: 446px;
+        justify-content: right;
+        /* width: 446px; */
+        /* margin: 0 auto; */
+
+        /* margin-right: 0px; */
+        /* margin-top: 50px; */
+        border: 2px solid red;
+        overflow-x: hidden;
+        /* padding-top: 10rem; */
+
+    }
+
+    .container {
+        background-color: white;
+        padding-inline: 3rem;
+        padding-top: 5rem;
     }
 
     div#firstListItems {
         flex-direction: column;
-        width: 446px;
-        margin-left: 40px;
-    }
-
-    div#infoListItem,
-    h5.fifthTitle {
-        width: 446px;
-    }
-
-    div#lastListItem {
-        align-content: flex-end;
-
-    }
-
-    p.paragraphList,
-    article.listItem {
-        width: 428px;
-    }
-
-    article.listItem {
         justify-content: flex-end;
-        background-color: #8B48BF4D;
+        margin-top: -5px;
+        /* width: 446px;
+        height: 214px; */
+    }
+
+    article.listItem .infoListItem {
+        /* width: 446px;
+        margin: 0 auto; */
+
+        padding-left: 30px;
+    }
+
+    article.listItem {
+        justify-content: end;
+        margin-bottom: 30px;
+
+    }
+
+    div#infoListItem {
+        /* width: 446px; */
+        padding-right: 150px;
+        background-color: red;
+    }
+
+    div#lastListItem div.smallListButton .smallButton {
+        /* align-content: flex-end;
+        justify-content: flex-end;
+        align-items: stretch; */
+        /* width: 446px; */
+        /* margin-right: 0px;
+        margin-left: 40px;
+        height: 214px; */
+        /* background-color: red; */
+        /* position: absolute; */
+
+        /* left: 50px; */
+
+
+    }
+
+    div.smallListButton {
+        width: 70px;
+        height: 43px;
+        position: relative;
+        margin-right: -25px;
+    }
+
+    div#lastListItem div.smallListButton .smallButton {
+        position: absolute;
+        
+    }
+    
+    div.smallListButton .smallButton {
+        position: absolute;
+        inset: 0;
+        top: 10px;
     }
 
     p.paragraphList {
         padding: 10px;
+        width: 408px;
+        margin-bottom: 10px;
     }
 
-    /* h5.fifthTitle {
+    .www .infoListItem > * {
+        /* background-color: darksalmon; */
+        /* border: 2px dashed black; */
+        /* position: relative; */
+        /* margin-left: -100px; */
+        /* width:fit-content; */
+        margin-left: -90px;
+
+
+    }
+
+    .www .infoListItem > h5 {
+        padding-left: 100px;
+    }
+
+    .www .smallListButton .smallButton {
+        /* background-color: darkblue; */
+        position: absolute;
+        left: -15px;
+        top: 15px;
+    }
+
+    /* Ajustar titulo */
+    h5.fifthTitle {
         background-color: #8B48BF4D;
-    } */
+        /* width: 446px; */
+        /* padding-block: 20px; */
+        /* height: -23px; */
+        border-radius: 50vh 0 0 50vh;
+        line-height: 3;
+        padding-left: 80px;
+        box-shadow: 4rem 0 0 #8B48BF4D;
+
+
+
+    }
 
     div.smallListButton {
-        margin: 0px;
+        /* margin: 0 auto; */
     }
 
     section#sectionFour {
         margin: 50px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2#secondaryTitleDarkBlue {
+        margin-top: 0;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     /* Estilo para ocultar todos los elementos .personDescription que no sean el primer hijo */
-    #personDescriptionItems .personDescription:not(:first-child) {
+    #personDescriptionItems .personDescription:not(:nth-child(2)) {
         display: none;
     }
 
-    /* #personDescriptionItems .personDescription:first-child {
+    #personDescriptionItems .personDescription:nth-child(2) {
         display: block;
-    } */
+        width: 445px;
+    }
+
+    div#personDescriptionItems {
+        background-color: #FAFAFA;
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+
+    p.paragraphPersonDescription {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 45px;
+    }
+
+    button.lightButtonMobile {
+        display: block;
+    }
+
+    button.lightPurpleButton {
+        display: none;
+    }
 
     section#sectionFive {
         flex-direction: column;
@@ -608,20 +722,16 @@ button.lightButtonMobile {
         /* Acomodar titulo para quede igual */
     }
 
+    .lineBreak {
+        display: block;
+    }
+
     button.darkBlueButton {
         display: block;
         margin-bottom: 30px;
     }
 
     button.whiteButton {
-        display: none;
-    }
-
-    button.lightButtonMobile {
-        display: block;
-    }
-
-    button.lightPurpleButton {
         display: none;
     }
 }
